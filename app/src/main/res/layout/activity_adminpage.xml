@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/f1"
+    tools:context=".adminpage">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="450dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="363dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addcat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category Name"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#00F03D3D"
+            android:textSize="24sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imgc"
+        android:layout_width="143dp"
+        android:layout_height="138dp"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="270dp"
+        app:srcCompat="@drawable/fooditem" />
+
+    <Button
+        android:id="@+id/imgb"
+        android:layout_width="131dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/roundb1"
+        android:text="Add image"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/addc"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/gradientb"
+        android:text="Add category"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/viewcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="440dp"
+        android:text="View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="374dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="363dp"
+        android:layout_marginTop="170dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Name"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#00F03D3D"
+            android:textSize="24sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/tbut"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="760dp"
+        android:text="Add Type"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundb"/>
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="440dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="160dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:cardBackgroundColor="#C2CAD0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gujarati"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textStyle="bold">
+            </TextView>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight: "
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/gid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="130.0 "
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp">
+            </TextView>
+            <TextView
+                android:id="@+id/gnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gm"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp">
+            <Button
+                android:id="@+id/add123"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:text="+"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#F7F7F9"
+                android:background="@drawable/but"
+                android:clickable="true"
+                android:layout_marginLeft="-20dp"/>
+
+            <TextView
+                android:id="@+id/pid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/pnum"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="₹"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp">
+            </TextView>
+        </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgfood1"
+            android:layout_width="176dp"
+            android:layout_height="176dp"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gujarati"
+            android:layout_marginLeft="-125dp"
+            android:elevation="10dp"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            >
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </LinearLayout>
+</RelativeLayout>

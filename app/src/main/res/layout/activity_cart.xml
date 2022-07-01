@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".cart"
+    android:id="@+id/activity_cart1"
+    android:background="#FEF0DB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#2F4F4F">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cart Items:"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="450dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="85dp">
+
+         <GridView
+             android:layout_width="match_parent"
+             android:layout_height="500dp"
+             android:id="@+id/grid_cart"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:columnWidth="120dp"
+             android:gravity="center"
+             android:numColumns="2"
+             android:clickable="false"
+             android:focusable="false"
+             android:focusableInTouchMode="false">
+         </GridView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="430dp"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="460dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Total:"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/temptot"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Total"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lll11"
+        android:layout_width="754dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="460dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_placeorder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/placeorder1"
+            android:text="Place Order"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="1200dp"
+        android:layout_height="500dp"
+        android:text="Empty Cart"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:id="@+id/empcart"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/orderbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_shopping_cart_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

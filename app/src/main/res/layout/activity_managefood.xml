@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".managefood"
+    android:background="@drawable/f1">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="210dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/foodid"
+            android:layout_width="258dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:hint="Food name"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+            android:id="@+id/categoryid"
+            android:layout_width="297dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="230dp" />
+
+        <Spinner
+            android:id="@+id/foodtypeid"
+            android:layout_width="297dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="230dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="230dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/priceid"
+            android:layout_width="254dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:hint="Price"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="202dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="230dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gramid"
+            android:layout_width="253dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:hint="Gram"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="274dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imgfood"
+        android:layout_width="143dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/fooditem"
+        android:layout_marginLeft="580dp"
+        android:layout_marginTop="90dp" />
+
+    <Button
+        android:id="@+id/imgfoodbut"
+        android:layout_width="131dp"
+        android:layout_height="58dp"
+        android:background="@drawable/roundb1"
+        android:text="Add image"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginLeft="750dp"
+        android:layout_marginTop="130dp" />
+
+    <Button
+        android:id="@+id/addfood"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="650dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/roundb"
+        android:text="Add Food"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/viewfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+       android:layout_marginLeft="680dp"
+        android:layout_marginTop="380dp"/>
+</RelativeLayout>

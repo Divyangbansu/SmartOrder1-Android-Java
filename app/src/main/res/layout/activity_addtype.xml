@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adminback"
+    tools:context=".addtype">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="230dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/typeid"
+            android:layout_width="258dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:hint="Type name"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/catid"
+        android:layout_width="297dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="360dp" />
+
+    <Button
+        android:id="@+id/addtype"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="435dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/roundb"
+        android:text="Add Type"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+</RelativeLayout>

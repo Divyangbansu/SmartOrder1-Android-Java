@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".managetaxes"
+    android:background="@drawable/f1">
+
+    <EditText
+        android:id="@+id/sgstid"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="336dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:hint="SGST"
+        android:inputType="numberDecimal"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:id="@+id/csgtid"
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="CGST"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="336dp"
+        android:textColorHint="#ffffff"/>
+
+    <Button
+        android:id="@+id/updatetax"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="420dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/roundb"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+</RelativeLayout>

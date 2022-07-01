@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FEF0DB">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:src="@drawable/logo"
+       />
+    <Button
+        android:id="@+id/btn_bill"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:background="@drawable/roundb"
+        android:text="Get Bill"
+        android:gravity="center"
+        android:layout_marginLeft="300dp"
+        android:layout_alignParentBottom="true"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:id="@+id/grid_bill"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:numColumns="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="50dp">
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="1200dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/btn_bill">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Sub Total"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Sub Total"
+            android:id="@+id/bsubtot"
+            android:layout_marginLeft="80dp"/>
+
+         <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+             android:text="CGST"
+             android:layout_marginLeft="-240dp"
+             android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="SGST"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="CGST"
+        android:id="@+id/bcgst"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bsgst"
+        android:text="SGST"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Total"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:id="@+id/btot"
+        android:text="bTotal"
+        android:textSize="24sp"
+        android:layout_above="@id/btn_bill"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">smart order1</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="press_here">Press Here ➯</string>
+    <string name="name">Name</string>
+    <string name="category">Category</string>
+    <string name="punjabi">Punjabi</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="welcome_to_dinner_knock">Welcome to Dinner Knock</string>
+    <string name="invalid_name">Please Enter the Name</string>
+    <string name="invalid_password">Please Enter The Password</string>
+    <string name="err_name">Please Enter The Valid User Name</string>
+    <string name="err_pass">Please Enter The Valid Password</string>
+    <string name="err_tax">Please Enter The Valid Tax Amount</string>
+    <string name="err_emp">Please Enter Tax Amount</string>
+    <string name="err_cust1">Please Enter Your Name</string>
+    <string name="err_cust2">Please Enter Your Mobile Number</string>
+    <string name="err_cust3">Please Enter Valid Name</string>
+    <string name="err_cust4">Please Enter Valid Mobile Number</string>
+    <string name="empty_msg">Please Enter Value</string>
+    <string name="invalid">Please Enter Only Letters</string>
+    <string name="invalidnum">Please Enter Only Numbers</string>
+    <string name="conformation">Do you Want to Confirm Your Order..</string>
+    <string name="Thanks">Thank You !</string>
+
+
+    <string-array name="foodtype">
+        <item>-- Select Type -- </item>
+        <item>Roti</item>
+        <item>Rice-Dal</item>
+        <item>Sabji</item>
+        <item>Noodles</item>
+        <item>Soup</item>
+        <item>Manchurian</item>
+        <item>Pizza</item>
+        <item>Pasta</item>
+        <item></item>
+    </string-array>
+    <string-array name="tablearray">
+        <item>-- Select Table -- </item>
+        <item>Table-1</item>
+        <item>Table-2</item>
+        <item>Table-3</item>
+        <item>Table-4</item>
+        <item>Table-5</item>
+        <item>Table-6</item>
+        <item>Table-7</item>
+        <item>Table-8</item>
+        <item>Table-9</item>
+        <item>Table-10</item>
+    </string-array>
+</resources>
